@@ -1,0 +1,61 @@
+* {
+	font-family: "Arial"; 
+}
+
+.invisible {'
+	display: none; 
+}
+
+h1, h2, {
+	font-family: "impact"; 
+} 
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.flex-item {
+	padding: 20px; 
+	background-color: white; 
+	height: 300px;
+	min-width: 100px; 
+	max-width: 400px;
+}
+
+.flex-table {
+	min-width: 400px; 
+	background-color: white; 
+	height: 300px;
+	min-width: 500px; 
+	max-width: 500px;
+}
+
+body {
+	backgorund-image: url("");
+}
+
+.punainen {
+	color: #AA000; 
+}
+
+table, tr, td {
+	background-color: #5599AA;
+	color: #FFF;
+}
+table {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin: 20px;
+	border:3px solid #114499; 
+}
+
+td{
+	border: 1px solid #FFF; 
+	padding-left: 10px;
+	padding-right: 20px; 
+	padding-top: 3px; 
+	padding-bottom: 3px;
+}
+
